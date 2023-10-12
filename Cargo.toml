@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 rocksdb = { package = "ckb-rocksdb", version = "0.19", default-features = false, features = ["snappy", "march-native"] }
-sparse-merkle-tree =  { git = "https://github.com/YanOctavian/sparse-merkle-tree.git"}
+sparse-merkle-tree =  { git = "https://github.com/Orbiter-Finance/sparse-merkle-tree.git"}
 serde_with = { version = "3.0", features = ["hex"] }
 
 [features]
